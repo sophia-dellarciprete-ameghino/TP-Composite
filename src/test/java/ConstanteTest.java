@@ -23,7 +23,17 @@ public class ConstanteTest {
     }
 
     @Test
-    public void sumar (){
-        Suma sum = new Suma(2,0 + 5,0);
+    public void sumarNros (){
+        Constante dos = new Constante(2);
+        Constante cinco = new Constante(5);
+
+        Suma sumarDosMasCinco = new Suma(dos, cinco);
+        Suma sumarDosMasCincoMasDos = new Suma(sumarDosMasCinco, dos);
+
+
+        Assert.assertEquals (7, sumarDosMasCinco.evaluar(), 0);
+        Assert.assertEquals (9, sumarDosMasCincoMasDos.evaluar(), 0);
     }
+
+
 }

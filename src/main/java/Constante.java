@@ -1,8 +1,8 @@
 /**
  * Created by Sophi on 29/9/2016.
  */
-public class Constante {
-    double valor;
+public class Constante implements Expresion{
+
     double constante;
 
     public Constante(int constante) {
@@ -10,6 +10,6 @@ public class Constante {
     }
 
     public double evaluar(){
-        return this.valor;
+        return this.constante;
     }
 }
