@@ -22,11 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="ameghino-seguna-evaluacion" />
+        <module name="ameghino-tp-composite" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ameghino-seguna-evaluacion" target="1.5" />
+      <module name="ameghino-tp-composite" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
